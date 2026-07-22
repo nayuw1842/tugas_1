@@ -3,6 +3,7 @@ let lulus = 0;
 let tidakLulus = 0;
 
 for (let i = 0; i < nilai.length; i++) {
+
     if (nilai[i] >= 75) {
         status = "lulus",
         lulus++
@@ -10,6 +11,7 @@ for (let i = 0; i < nilai.length; i++) {
         status = "tidak lulus",
         tidakLulus++
     }
+    
     console.log(`Siswa ke-${i + 1} : ${nilai[i]} -> ${status}`);
 };
 
